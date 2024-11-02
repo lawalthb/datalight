@@ -1,0 +1,213 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboards",
+      "icon": "menu-icon tf-icons ri-home-smile-line",
+      "slug": "dashboard"
+    },
+    {
+      "menuHeader": "User Management"
+    },
+    {
+      "name": "Student Management",
+      "icon": "menu-icon tf-icons ri-layout-2-line",
+      "slug": "student-management",
+      "submenu": [
+        {
+          "url": "student/ist",
+          "name": "Students List",
+          "slug": "student-list"
+        },
+        {
+          "url": "student/admission",
+          "name": "Admission",
+          "slug": "admission"
+        },
+        {
+          "url": "student/banned",
+          "name": "Banned List",
+          "slug": "student-banned"
+        }
+      ]
+    },
+    {
+      "name": "Parent Management",
+      "icon": "menu-icon tf-icons ri-layout-2-line",
+      "slug": "parent-management",
+      "submenu": [
+        {
+          "url": "parent/ist",
+          "name": "parents List",
+          "slug": "parent-list"
+        },
+        {
+          "url": "parent/add",
+          "name": "Add New Parent",
+          "slug": "parent-add"
+        }
+      ]
+    },
+    {
+      "name": "Staff Management",
+      "icon": "menu-icon tf-icons ri-layout-2-line",
+      "slug": "staff-management",
+      "submenu": [
+        {
+          "url": "staff/ist",
+          "name": "Staff List",
+          "slug": "staff-list"
+        },
+        {
+          "url": "staff/add",
+          "name": "Add New staff",
+          "slug": "staff-add"
+        },
+        {
+          "url": "staff/banned",
+          "name": "Banned User",
+          "slug": "staff-banned"
+        }
+      ]
+    },
+    {
+      "menuHeader": "Academics"
+    },
+    {
+      "name": "Assigning",
+      "icon": "menu-icon tf-icons ri-layout-left-line",
+      "slug": "pages-account-settings",
+      "submenu": [
+        {
+          "url": "/assigns_class_teacher",
+          "name": "Class to Teacher",
+          "slug": "assigns-class-teacher"
+        },
+        {
+          "url": "/assigns_class_subject",
+          "name": "Class to Subject",
+          "slug": "assigns-class-subject"
+        },
+        {
+          "url": "/assigns_subject_teacher",
+          "name": "Subject to Teacher",
+          "slug": "assigns-subject-teacher"
+        }
+      ]
+    },
+    {
+      "name": "Subjects",
+
+      "slug": "subjects",
+      "url": "/subjects",
+      "icon": "menu-icon tf-icons ri-box-3-line"
+    },
+    {
+      "url": "/sessions",
+
+      "name": "Sessions",
+      "slug": "session",
+      "icon": "menu-icon tf-icons ri-box-3-line"
+    },
+    {
+      "url": "/classes",
+      "name": "Classes",
+      "slug": "classes",
+      "icon": "menu-icon tf-icons ri-box-3-line"
+    },
+    {
+      "url": "/term",
+      "name": "Terms",
+      "slug": "terms",
+      "icon": "menu-icon tf-icons ri-box-3-line"
+    },
+    {
+      "url": "/promote_students",
+      "name": "Promote Students",
+      "slug": "promote-students",
+      "title": "promote-students",
+      "icon": "menu-icon tf-icons ri-box-3-line"
+    },
+    {
+      "menuHeader": "Examinations"
+    },
+
+
+
+    {
+      "name": "Grading System",
+      "icon": "menu-icon tf-icons ri-bank-card-2-line",
+      "slug": "grading-system",
+      "url": "grading-system"
+    },
+    {
+      "name": "Terminal Sheets",
+      "icon": "menu-icon tf-icons ri-toggle-line",
+      "slug": "terminal-sheet",
+      "submenu": [
+        {
+          "url": "first-term",
+          "name": "First Term",
+          "slug": "first-term"
+        },
+        {
+          "url": "second-term",
+          "name": "Second Term",
+          "slug": "second-term"
+        },
+        {
+          "url": "third-term",
+          "name": "Third Term",
+          "slug": "third-term"
+        }
+      ]
+    },
+
+    {
+      "name": "Results",
+      "icon": "menu-icon tf-icons ri-toggle-line",
+      "slug": "results",
+      "submenu": [
+        {
+          "url": "/results/by-class",
+          "name": "By Class",
+          "slug": "results-by-class"
+        },
+        {
+          "url": "results/by-subject",
+          "name": "By Subject",
+          "slug": "results-by-subject"
+        }
+      ]
+    },
+    {
+      "name": "Exam Settings",
+      "icon": "menu-icon tf-icons ri-box-3-line",
+      "slug": "extended",
+     "url": "exam-settings"
+    },
+    {
+      "menuHeader": "Web Settings"
+    },
+    {
+      "url": "#",
+      "icon": "menu-icon tf-icons ri-lifebuoy-line",
+      "name": "Landing Page",
+      "slug": "landing-page"
+
+    },
+    {
+      "url": "#",
+      "icon": "menu-icon tf-icons ri-lifebuoy-line",
+      "name": "About Page",
+      "slug": "about-page"
+    },
+    {
+      "url": "#",
+      "icon": "menu-icon tf-icons ri-lifebuoy-line",
+      "name": "Contact Us Page",
+      "slug": "contact-us-page"
+    }
+
+  ]
+}
