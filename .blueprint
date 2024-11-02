@@ -1,0 +1,2 @@
+models:
+    User: { id: biginteger, email: 'string:60', name: 'string:50', phone: 'string:60 nullable', password: 'string:150 default:$2y$10$iOMlpi7zwljJ2SwAow0doOgizVAgByA3M3ykuEiKICLC5ZO5zVBSm', image: 'string:90 nullable', is_active: "enum:'Yes','No'", account_status: 'string:50 nullable default:Pending', user_role_id: 'integer nullable' }
